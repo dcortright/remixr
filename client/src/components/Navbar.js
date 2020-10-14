@@ -18,7 +18,7 @@ const Navbar = () => {
           <a
             style={{
               fontFamily: "'Abril Fatface', cursive",
-              fontSize: '2.5em',
+              fontSize: '2.0em',
               color: '#262626',
               float: 'left',
               border: 'none',

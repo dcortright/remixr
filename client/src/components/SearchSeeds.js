@@ -139,7 +139,7 @@ const SearchSeeds = (props) => {
       <AutoComplete
         style={{
           marginBottom: '0.5em',
-          width: '100%',
+          width: '95%',
           borderRadius: '10px',
         }}
         dropdownClassName="certain-category-search-dropdown"

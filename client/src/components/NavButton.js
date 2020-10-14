@@ -46,7 +46,7 @@ const NavButton = (props) => {
     <div>
       <Button
         shape="round"
-        size="large"
+        size="medium"
         className={'spotifyColor'}
         style={{
           float: 'right',
