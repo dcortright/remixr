@@ -57,7 +57,7 @@ export default function Playlist() {
   }
 
   return (
-    <div className="playlists">
+    <div className="playlists" style={{width: '98%', margin: 'auto'}}>
       <Title> Select playlist </Title>
 
       <AutoComplete className="searchBox" onSearch={filter}>
