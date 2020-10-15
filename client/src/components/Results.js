@@ -429,8 +429,6 @@ export default function Results(props) {
 
     return (
         <div style={{marginLeft: "2%", marginRight: "2%"}}>
-            <Navbar/>
-
             <Row>
                 {/* Mobile settings drawer */}
                 <Col xs={24} sm={24} md={24} lg={0} xl={0}>

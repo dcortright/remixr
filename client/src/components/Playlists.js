@@ -58,8 +58,6 @@ export default function Playlist() {
 
   return (
     <div className="playlists">
-      <Navbar />
-
       <Title> Select playlist </Title>
 
       <AutoComplete className="searchBox" onSearch={filter}>

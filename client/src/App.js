@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import './App.less';
 
 import createHistory from 'history/createBrowserHistory';
+import Navbar from "./components/Navbar";
 
 const {Content} = Layout;
 
@@ -24,9 +25,10 @@ function App() {
             <Router history={history}>
                 <Route exact path="/" component={Home}/>
                 <Content>
+                    <Navbar />
                     <Route path="/playlists" component={Playlist}/>
                     <Route path="/results" component={Results}/>
-                    <Footer/>
+                    <Footer />
                 </Content>
             </Router>
         </div>

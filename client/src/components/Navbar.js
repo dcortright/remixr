@@ -14,7 +14,7 @@ const Navbar = () => {
       {redirectPath ? (
         <Redirect to={redirectPath} />
       ) : (
-        <div className="navbar">
+        <div className="navbar" style={{width: '98%', margin: 'auto'}}>
           <a
             style={{
               fontFamily: "'Abril Fatface', cursive",
